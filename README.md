@@ -1,11 +1,6 @@
 # less-arch
-Less is more
 
-
-
-
-
-
+Boiler plate with Less
 
 
 
