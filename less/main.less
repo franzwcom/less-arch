@@ -1,0 +1,34 @@
+/*------------------------------------------------------------------
+DOCUMENT INFORMATION
+
+[Master Stylesheet]
+Project:    less-arch
+Version:    1.0
+Last change:  13-05-2016
+Author: Franz G
+Author URI:   http://franzw.com
+Primary use:  Personal
+Client:       Personal
+-------------------------------------------------------------------*/
+
+
+@import "base/variables.less";
+@import "base/typography.less";
+@import "helpers/mixins.less";
+
+html {
+    font-family: @body-font;
+    font-weight: normal;
+    font-size: @base-font-size;
+    // Make fonts look a little nicer in webkit
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: @tertiary-color;
+    color: @secondary-color;
+    line-height: 200%;
+
+}
+
+

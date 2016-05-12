@@ -1,0 +1,29 @@
+{
+  "name": "less-arch",
+  "version": "1.0.0",
+  "description": "less fun",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "repo-here.git"
+  },
+  "keywords": [
+    "less",
+    "html",
+    "browser",
+    "sync"
+  ],
+  "author": "Franz G",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-watch": "^4.3.5",
+    "less-plugin-autoprefix": "^1.5.1"
+  }
+}
